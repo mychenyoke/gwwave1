@@ -34,8 +34,8 @@ reverse_ensure=np.fft.ifft(fft_template)
 #Do the match filtering with wave and window
 
 #plt figure
-plt.Figure(figsize=(30,30))
-plt.subplots_adjust(left=0.0,bottom=0.0,top=1,right=1,hspace=2)
+plt.Figure(figsize=(50,30))
+plt.subplots_adjust(left=0.2,bottom=0.1,top=0.9,right=1,hspace=1)
 
 plt.subplot(3,1,1)
 plt.title("time-strain")
